@@ -1,5 +1,3 @@
-//Keep accepting inputs, output all of them sequentially but end it when 42 occurs
-
 #include <iostream>
 using namespace std;
 
