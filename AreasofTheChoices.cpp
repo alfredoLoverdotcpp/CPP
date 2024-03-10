@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 double AreasofTheChoices(int ch, vector<double> arr)
 {
     double result=0.0;
