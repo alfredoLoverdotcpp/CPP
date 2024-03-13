@@ -24,7 +24,6 @@ int fibno(int n){
       return b;
       }
   }
-
 int main() {
   int input;
   cin >> input;
