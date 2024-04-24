@@ -4,7 +4,7 @@ int Maximum (int x, int y)
 //Pass by Value -> this function gets the copies of 'a' and 'b', 
 //whilst the comparison, no changes will be reflected in the original 'a' and 'b' values
 {
-	return(x>y?x:y)
+	return(x>y?x:y);
 }
 void Swap(int &x, int &y)
 //Pass by Reference -> Swap function gets the memory addresses (pointers) of 'a' and 'b', 
