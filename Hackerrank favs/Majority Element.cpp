@@ -1,3 +1,6 @@
+//Takes O(N) time complexity for unordered_map <int, ..>..
+//Takes O(N log N) time complexity for map <int, ..>..
+//O(N) is the space complexity
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
