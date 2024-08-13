@@ -14,8 +14,7 @@ public:
     //   }
 
     //**Better solution, using hashmap**
-    //TC - O(N) worst case - O(N^2) SC - O(N)
-    // if using map instead of unordered_map, TC - O(NlogN)
+    //TC - O(N), worst case - O(N^2) || SC - O(N)if using map instead of unordered_map, SC - O(NlogN)
 
 //Code:     
      unordered_map<int, int> myMap;
