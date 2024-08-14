@@ -1,3 +1,6 @@
+//Series begins from - 1 1 2 3 5 8 13 21 34 ...
+//Give the position and the program returns which number is present on the given location.
+
 #include<bits/stdc++.h>
 using namespace std;
 
