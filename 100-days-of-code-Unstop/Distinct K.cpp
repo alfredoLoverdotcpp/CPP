@@ -1,3 +1,20 @@
+/* Sample Testcase 0
+Testcase Input
+6
+d
+b
+c
+b
+c
+a
+2
+Testcase Output
+a
+Explanation
+The only strings in arr that are distinct are "d" and "a." The letter "d" comes first, making it the first separate string.
+
+Because "a" appears second, it is the second distinct string. "a" is returned since k == 2. */
+
 #include<bits/stdc++.h>
 #include <iostream>
 #include <algorithm>
@@ -25,7 +42,10 @@ int main() {
              uniqueStrings.push_back(str);
          }
      }
+     
      cin >> k;
+     //kth unique element in the vector, eg: 2nd or 3rd .. unique element in the vector
+     
      if(uniqueStrings.size()<k){
          cout << "" << endl;
      }
