@@ -5,6 +5,17 @@ using namespace std;
 class Solution{
 public:
 
+/* The time complexity of this solution is O(n) because we iterate through the input array of size n once. 
+The space complexity is O(1) because we only use a constant amount of extra space regardless of the input size.
+
+Given an integer array nums, find the subarray with the largest sum, and return its sum.
+Example 1:
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+
+*/
+
 int maxSubarray(vector<int>& nums){
     int sum = 0;
     int maxi = nums[0];
