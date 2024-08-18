@@ -17,6 +17,9 @@ There are 5 subarrays of nums of size 3:
 
   */
 
+//TC: O(n×k), n is the length of the input array nums and k is the size of the subarrays being checked. 
+//This is because each subarray of size k requires a linear scan to check consecutiveness, and there are approximately n - k + 1 such subarrays.
+
 class Solution {
 public:
     vector<int> resultsArray(vector<int>& nums, int k) {
